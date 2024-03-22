@@ -58,6 +58,8 @@ struct MealDescriptionView: View {
             
             Text(viewModel.selectedMealDetails?.name ?? "")
                 .font(.largeTitle).bold()
+                .padding(.horizontal)
+                .multilineTextAlignment(.center)
             
             Divider()
             
